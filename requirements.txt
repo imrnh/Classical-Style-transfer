@@ -1,5 +1,6 @@
-streamlit
+numpy
 pillow
 matplotlib
-numpy
-opencv-python
+streamlit
+tqdm
+opencv-python-headless
