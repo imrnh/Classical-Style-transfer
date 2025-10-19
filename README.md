@@ -3,7 +3,7 @@
 Performs **image style transfer** using **classical image processing** — no deep learning required.  
 It works by matching and replacing small image patches between a **content image** and a **style image**, transferring texture and tone statistics from one to the other.
 
-![Generated Image](./generated_image.png)
+![Generated Image](./images/output/generated_output.png)
 
 
 ## Concept Overview

@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 from time import perf_counter
 
-from style_transfer_para import style_transfer as style_para
+from style_transfer_parallel import style_transfer as style_para
 from style_transfer import style_transfer as style_mono
 from utils import get_stylized_rgb
 
