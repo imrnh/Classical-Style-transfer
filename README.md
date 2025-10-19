@@ -23,3 +23,20 @@ By replacing each small patch in the content image with a visually similar patch
 - Local mean and standard deviation capture basic **texture statistics**, which are essential for visual style (Julesz, 1962).  
 - By matching these statistics, the algorithm recreates the **visual feel** of the style image.  
 - The method is inspired by **non-parametric texture synthesis** (Efros & Leung, 1999) and **statistical texture models** (Portilla & Simoncelli, 2000).
+
+
+## To Run the app
+
+Put the content and style image inside the respective directory inside the root `images` directory. Content image $c_{i}$ will be styled with style image $s_{i}$. 
+
+Resulting image will be saved inside images/output directory.
+
+You can run each operation on a single CPU core or all available cores. The 2nd parameter of the command below define the core count. If it is `p`, then the function will allocate as many cores are avaiable. If the 2nd parameter = `m`, it will be a signle core operation. 
+
+```
+python main.py p 3 2
+
+```
+
+The 3rd param = 3 means padding.
+The 4th param = 2 means stride. 
